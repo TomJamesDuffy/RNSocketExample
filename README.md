@@ -1,9 +1,9 @@
-#### Navigate to server folder ####:
+#### Navigate to server folder:
 
 ```npm install```  
 ```node index```  
 
-#### Navigate to client folder ####:
+#### Navigate to client folder:
 
 ```npm install```  
 ```react-native run-ios``` 
