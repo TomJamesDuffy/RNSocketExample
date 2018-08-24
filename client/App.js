@@ -3,8 +3,8 @@ import { Text, View, Button } from 'react-native';
 import SocketIOClient from 'socket.io-client';
 
 export default class App extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.socket = SocketIOClient('http://localhost:3000');
     this.socket.on('connection');
   }
